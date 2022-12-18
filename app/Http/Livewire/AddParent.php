@@ -145,6 +145,7 @@ class AddParent extends Component
             $My_Parent->Address_Mother = $this->Address_Mother;
             // dd($My_Parent);
             $My_Parent->save();
+
             // dump($this->photos);
             if (!empty($this->photos)) {
                 foreach ($this->photos as $photo) {
